@@ -1,0 +1,23 @@
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #ffffff;
+  color: #333333;
+  text-transform: uppercase;
+  padding: 1.2rem 2.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  transform: translateX(3px);
+}
+
+.button-icon {
+  font-size: 1.2rem;
+}
