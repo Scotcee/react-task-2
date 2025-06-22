@@ -1,0 +1,130 @@
+.mission-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.heading {
+  text-align: left;
+  margin: 2.5rem 0 1rem 0;
+}
+
+.heading h1 {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
+
+.text-section-mission {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+}
+
+.mission-statement1 {
+  background-color: white;
+  flex: 1;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.mission-statement2 {
+  background-color: white;
+  flex: 3;
+  padding: 1rem;
+  max-width: 440px;
+}
+
+.mission-item {
+  display: flex;
+  align-items: stretch;
+}
+
+.bullet-number {
+  color: #f2f2f2;
+  font-size: 4em;
+  font-weight: 700;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bullet-number h1 {
+  margin: 0;
+}
+
+.mission-text {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.mission-text p {
+  margin: 0;
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Medium Screens (Tablets) */
+@media (min-width: 768px) {
+  .text-section-mission {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .mission-statement1 {
+    max-width: 100%;
+  }
+
+  .mission-statement2 {
+    max-width: 100%;
+  }
+}
+
+/* Large Screens (Desktops) */
+@media (min-width: 1024px) {
+  .heading h1 {
+    font-size: 3rem;
+  }
+
+  .bullet-number {
+    min-width: 80px;
+    font-size: 3.5rem;
+  }
+
+  .mission-statement1 {
+    max-width: 350px;
+  }
+
+  .mission-statement2 {
+    max-width: 440px;
+  }
+}
+
+/* Small Screens (Phones) */
+@media (max-width: 480px) {
+  .heading h1 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .bullet-number {
+    font-size: 2.5rem;
+    min-width: 60px;
+  }
+
+  .mission-text {
+    padding: 0 0.5rem;
+  }
+
+  .mission-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
