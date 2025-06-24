@@ -1,5 +1,5 @@
 .mission-container {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -44,7 +44,7 @@
 
 .bullet-number {
   color: #f2f2f2;
-  font-size: 4em;
+  font-size: 200px;
   font-weight: 700;
   min-width: 80px;
   display: flex;
