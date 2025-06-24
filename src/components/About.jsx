@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/About.css";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
-import image1 from "../assets/images/about-image1.png";
-import image2 from "../assets/images/about-image2.png";
-import image3 from "../assets/images/about-image3.png";
+import aboutImage1 from "../assets/images/about-image1.png";
+import aboutImage2 from "../assets/images/about-image2.png";
+import aboutImage3 from "../assets/images/about-image3.png";
 
 function About() {
   return (
@@ -14,16 +14,16 @@ function About() {
           <div className="image-container">
             <div className="image-flex">
               <div className="image1 image-hover">
-                <img src={image3} alt="" />
+                <img src={aboutImage3} alt="" />
                 <div className="overlay"></div>
               </div>
               <div className="image3 image-hover">
-                <img src={image2} alt="" />
+                <img src={aboutImage2} alt="" />
                 <div className="overlay"></div>
               </div>
             </div>
-            <div className="image2 image-hover">
-              <img src={image1} alt="" />
+            <div className="about-image2 image-hover">
+              <img src={aboutImage1} alt="" />
               <div className="overlay"></div>
             </div>
           </div>

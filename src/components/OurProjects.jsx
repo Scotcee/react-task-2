@@ -43,7 +43,7 @@ function OurProjects() {
               backgroundColor: "#333333",
               color: "#ffffff",
               padding: "15px 30px",
-              fontSize: "0.5rem",
+              fontSize: "0.7rem",
               fontWeight: 300,
               border: "none",
               cursor: "pointer",
