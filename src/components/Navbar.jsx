@@ -17,7 +17,7 @@ function Navbar() {
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
-        &#9776;
+        {isOpen ? "✕" : "☰"}
       </div>
 
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
@@ -32,7 +32,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/project" onClick={() => setIsOpen(false)}>
+          <Link to="/projects" onClick={() => setIsOpen(false)}>
             PROJECT
           </Link>
         </li>

@@ -20,7 +20,7 @@ function OurProjects() {
               </h1>
             </div>
             <div className="link">
-              <Link to="/project">
+              <Link to="/projects">
                 VIEW MORE <FaArrowRight className="arrow-icon" />
               </Link>
             </div>

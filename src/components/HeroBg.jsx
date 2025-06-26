@@ -35,7 +35,7 @@ function HeroBg() {
       <div className="image-content">
         <img src={heroImage} alt="hero background" />
         <div className="image-button">
-          <Link to="/project">
+          <Link to="/projects">
             <Button text="VIEW PROJECT" />
           </Link>
         </div>
