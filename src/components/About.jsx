@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
+import Button from "./Button";
 import aboutImage1 from "../assets/images/about-image1.png";
 import aboutImage2 from "../assets/images/about-image2.png";
 import aboutImage3 from "../assets/images/about-image3.png";

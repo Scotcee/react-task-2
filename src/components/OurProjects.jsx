@@ -30,7 +30,7 @@ function OurProjects() {
         </div>
 
         <div className="second-box">
-          <div className="image3"></div>
+          <div className="image3-project"></div>
           <div className="image4"></div>
           <div className="image5"></div>
         </div>

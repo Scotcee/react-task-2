@@ -1,18 +1,13 @@
 .bg-cover {
   background-color: #fbfbfb;
   max-width: 1170px;
-  margin: 5rem auto;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-height: 395px;
-  gap: 2rem;
   padding: 2rem 4rem;
+  gap: 2rem;
   overflow: visible;
-}
-
-.image-section {
-  flex: 1;
 }
 
 .image-container {
@@ -24,6 +19,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 1.5rem;
 }
 
 .image1 img {
@@ -99,13 +95,13 @@
   opacity: 1;
 }
 
-/* Show only one image on mobile */
+/* === Mobile View: Show only image3 === */
 @media (max-width: 768px) {
   .bg-cover {
     flex-direction: column;
     padding: 1rem;
-    max-height: none;
     gap: 1.5rem;
+    max-height: none;
   }
 
   .image-container {
@@ -115,19 +111,20 @@
 
   .image-flex {
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 
-  .image1 {
-    display: block;
+  .image1,
+  .about-image2 {
+    display: none !important;
   }
 
-  .image2,
   .image3 {
-    display: none;
+    display: block !important;
   }
 
-  .image1 img {
+  .image3 img {
     width: 250px;
     height: 250px;
   }
@@ -142,5 +139,10 @@
     text-align: center;
     max-width: 90%;
     margin: 0 auto;
+  }
+
+  .readmore-button {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
