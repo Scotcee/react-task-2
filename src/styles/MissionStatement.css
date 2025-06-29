@@ -72,16 +72,39 @@
 }
 
 /* Medium Screens (Tablets) */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mission-container {
+    padding: 1.5rem;
+    margin: 3rem auto;
+  }
+
+  .heading h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
   .text-section-mission {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission-item {
     flex-direction: row;
-    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
   }
 
-  .mission-statement1 {
-    max-width: 100%;
+  .bullet-number {
+    font-size: 3rem;
+    min-width: 70px;
   }
 
+  .mission-text {
+    padding: 0 1rem;
+  }
+
+  .mission-statement1,
   .mission-statement2 {
     max-width: 100%;
   }

@@ -68,7 +68,22 @@
   background-color: #333333;
 }
 
-/* ✅ Mobile Styles */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 13px;
+  }
+
+  .navbar img {
+    width: 65px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
@@ -107,7 +122,6 @@
   }
 }
 
-/* ✅ Extra small devices */
 @media (max-width: 480px) {
   .navbar {
     padding: 1rem;

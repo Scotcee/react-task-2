@@ -95,6 +95,51 @@
   opacity: 1;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bg-cover {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .image-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .image-flex {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .image1 img,
+  .about-image2 img,
+  .image3 img {
+    height: 220px;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .text p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .readmore-button {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .image3 {
+    display: none;
+  }
+}
+
 /* === Mobile View: Show only image3 === */
 @media (max-width: 768px) {
   .bg-cover {
